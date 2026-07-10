@@ -177,6 +177,11 @@ const styles: Record<string, CSSProperties> = {
     fontWeight: 450,
     color: "var(--dark-100)", 
   },
+  item3: {
+    fontSize: "clamp(9.5px, 0.75vw, 11.5px)",
+    fontWeight: 450,
+    color: "var(--dark-100)", 
+  },
   tickerText: {
     display: "inline-block",
     whiteSpace: "nowrap",
@@ -407,7 +412,7 @@ const PrivateLayout: FC = () => {
 
                       <Box style={styles.items}>
                         <IconCalendarOutlineDuo18 style={styles.icona} />
-                        <Text style={styles.item2}>{currentDate}</Text>
+                        <Text style={styles.item3}>{currentDate}</Text>
                       </Box>
                     </Box>
                   )}
