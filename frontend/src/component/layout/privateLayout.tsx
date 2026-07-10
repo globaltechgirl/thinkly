@@ -374,7 +374,7 @@ const PrivateLayout: FC = () => {
                             onClick={() => setOpenConnectQuiz(true)}
                           >
                             <IconUpload style={styles.icona} />
-                            <Text style={styles.item}>Connect</Text>
+                            <Text style={styles.item1}>Connect</Text>
                           </Box>
 
                           <Box
@@ -382,7 +382,7 @@ const PrivateLayout: FC = () => {
                             onClick={() => setOpenCreatePopup(true)}
                           >
                             <IconPlusOutlineDuo18 style={styles.icona} />
-                            <Text style={styles.item}>Create</Text>
+                            <Text style={styles.item2}>Create</Text>
                           </Box>
                         </>
                       ) : (
