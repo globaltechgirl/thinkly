@@ -175,7 +175,7 @@ const styles: Record<string, CSSProperties> = {
   item2: {
     fontSize: "clamp(10px, 0.8vw, 12px)",
     fontWeight: 450,
-    color: "var(--dark-100)",
+    color: "var(--dark-100)", 
   },
   tickerText: {
     display: "inline-block",
